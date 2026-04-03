@@ -3,7 +3,7 @@
 int main()
 {
 int i;
-printf("Palindrome numbers are:");
+printf("armstrong numbers are:");
 for (i=1; i<=100; i++)
 {
 int num=i;
@@ -18,7 +18,7 @@ for(;num!=0;num/=10)
 b=num%10;
 sum=sum + pow(b, count);
 }
-if (sum==1)
+if (sum==i)
 printf("%d",i);
 }
 return 0;
